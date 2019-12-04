@@ -27,6 +27,6 @@ for (let book of books) {
     console.log(`You already read '${book.title}'`);
     // 5. If you haven't read it log a string like `You still need to read "The Lord of the Rings"`
   } else {
-    console.log(`You still nedd to read '${book.title}'`);
+    console.log(`You still need to read '${book.title}'`);
   }
 }
