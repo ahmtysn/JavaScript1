@@ -18,7 +18,7 @@
 // - Make a JavaScript file with a name that describes its contents
 // - Use either a switch or if/else statement
 // - Write at least 2 comments that explain to others what a line of code is meant to do
-function gradeconvertor(score) {
+function gradeConvertor(score) {
   let grade = "";
   if (score < 0 || score > 100) {
     return "Invalid Value..";
@@ -41,4 +41,4 @@ function gradeconvertor(score) {
   // You got a B (85%)!
   return `You got a ${grade} (${score}%)!`;
 }
-console.log(gradeconvertor(75));
+console.log(gradeConvertor(85));
