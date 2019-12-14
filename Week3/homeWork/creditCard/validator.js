@@ -17,7 +17,7 @@ function validator(cardNums) {
   }
   if (strCardNums.length !== 16) {
     statement = "Credit card number must be 16 digits..";
-  } else if (isNaN(sum)) {
+  } else if (Array.from(strCardNums).some(digit => isNaN(digit))) {
     statement = "Please write all digits as a number..";
   } else if (strCardNums[strCardNums.length - 1] % 2) {
     statement = "The final digit must be even..";

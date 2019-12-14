@@ -13,7 +13,7 @@ function giveCompliment(name) {
     "faithful",
     "hopeful"
   ];
-  const randomTitle = titles[Math.floor(Math.random() * 10)];
+  const randomTitle = titles[Math.floor(Math.random() * titles.length)];
   return `You are ${randomTitle}, ${name}!`;
 }
 
